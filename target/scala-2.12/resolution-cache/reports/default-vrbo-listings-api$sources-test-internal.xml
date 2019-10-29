@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="vrbo-listings-api$sources"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191028233405"/>
+	<dependencies>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20070226224340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2417" time="0" location="/Users/zabdi/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="/Users/zabdi/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-http_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5542" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finatra-http_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finatra-http_2.12/19.7.0/finatra-http_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="finatra-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117350" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finatra-http_2.12/srcs/finatra-http_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finatra-http_2.12/19.7.0/finatra-http_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.4" status="release" pubdate="20181224070708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-fileupload/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14459" time="0" location="/Users/zabdi/.ivy2/cache/commons-fileupload/commons-fileupload/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="90663" time="0" location="/Users/zabdi/.ivy2/cache/commons-fileupload/commons-fileupload/srcs/commons-fileupload-1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-exp_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223852" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6235" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-exp_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-exp_2.12/19.7.0/finagle-exp_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-exp_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6408" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-exp_2.12/srcs/finagle-exp_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-exp_2.12/19.7.0/finagle-exp_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.netflix.concurrency-limits" name="concurrency-limits-core">
+			<revision name="0.3.0" status="release" pubdate="20190515011306" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Netflix/concurrency-limits" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4806" time="0" location="/Users/zabdi/.ivy2/cache/com.netflix.concurrency-limits/concurrency-limits-core/ivy-0.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/netflix/concurrency-limits/concurrency-limits-core/0.3.0/concurrency-limits-core-0.3.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="concurrency-limits-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47410" time="0" location="/Users/zabdi/.ivy2/cache/com.netflix.concurrency-limits/concurrency-limits-core/srcs/concurrency-limits-core-0.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/netflix/concurrency-limits/concurrency-limits-core/0.3.0/concurrency-limits-core-0.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-thrift_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223824" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7128" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-thrift_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-thrift_2.12/19.7.0/finagle-thrift_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-thrift_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="164252" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-thrift_2.12/srcs/finagle-thrift_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-thrift_2.12/19.7.0/finagle-thrift_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="scrooge-core_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717210528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/scrooge" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3325" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/scrooge-core_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/19.7.0/scrooge-core_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scrooge-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22333" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/scrooge-core_2.12/srcs/scrooge-core_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/19.7.0/scrooge-core_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.activation" name="javax.activation">
+			<revision name="1.2.0" status="release" pubdate="20170907001311" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="CDDL/GPLv2+CE" url="https://github.com/javaee/activation/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5617" time="0" location="/Users/zabdi/.ivy2/cache/com.sun.activation/javax.activation/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javax.activation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="106939" time="0" location="/Users/zabdi/.ivy2/cache/com.sun.activation/javax.activation/srcs/javax.activation-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-utils_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233558" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4952" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finatra-utils_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finatra-utils_2.12/19.7.0/finatra-utils_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="finatra-utils_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7293" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finatra-utils_2.12/srcs/finatra-utils_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finatra-utils_2.12/19.7.0/finatra-utils_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-server_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233511" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5141" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-server_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/inject-server_2.12/19.7.0/inject-server_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="inject-server_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8478" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-server_2.12/srcs/inject-server_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/inject-server_2.12/19.7.0/inject-server_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="twitter-server_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717231422" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/twitter-server" extra-info.apiURL="https://twitter.github.io/twitter-server/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="12282" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/twitter-server_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/twitter-server_2.12/19.7.0/twitter-server_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/twitter-server/docs/"/>
+				<artifacts>
+					<artifact name="twitter-server_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278169" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/twitter-server_2.12/srcs/twitter-server_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/twitter-server_2.12/19.7.0/twitter-server_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-stats_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717224047" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5313" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-stats_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-stats_2.12/19.7.0/finagle-stats_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-stats_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2412" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-stats_2.12/srcs/finagle-stats_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-stats_2.12/19.7.0/finagle-stats_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-stats-core_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717224057" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="13361" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-stats-core_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-stats-core_2.12/19.7.0/finagle-stats-core_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-stats-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27205" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-stats-core_2.12/srcs/finagle-stats-core_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-stats-core_2.12/19.7.0/finagle-stats-core_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finatra-jackson_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233519" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4896" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finatra-jackson_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finatra-jackson_2.12/19.7.0/finatra-jackson_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="finatra-jackson_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72268" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finatra-jackson_2.12/srcs/finatra-jackson_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finatra-jackson_2.12/19.7.0/finatra-jackson_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-http_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717224026" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="61">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8628" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-http_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-http_2.12/19.7.0/finagle-http_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44252" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-http_2.12/srcs/finagle-http_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-http_2.12/19.7.0/finagle-http_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-http2_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223953" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="12696" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-http2_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-http2_2.12/19.7.0/finagle-http2_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-http2_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71724" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-http2_2.12/srcs/finagle-http2_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-http2_2.12/19.7.0/finagle-http2_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-tcnative-boringssl-static">
+			<revision name="2.0.25.Final" status="release" pubdate="20190411205836" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17806" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-tcnative-boringssl-static/ivy-2.0.25.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/2.0.25.Final/netty-tcnative-boringssl-static-2.0.25.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.25.Final" rev-constraint-default="2.0.25.Final" rev-constraint-dynamic="2.0.25.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-tcnative-boringssl-static" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34346" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-tcnative-boringssl-static/srcs/netty-tcnative-boringssl-static-2.0.25.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/2.0.25.Final/netty-tcnative-boringssl-static-2.0.25.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-app_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233452" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4930" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-app_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/inject-app_2.12/19.7.0/inject-app_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="inject-app_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10585" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-app_2.12/srcs/inject-app_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/inject-app_2.12/19.7.0/inject-app_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="log4j-over-slf4j">
+			<revision name="1.7.21" status="release" pubdate="20160404193854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache Software Licenses" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5284" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/log4j-over-slf4j/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30875" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/log4j-over-slf4j/srcs/log4j-over-slf4j-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-utils_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233348" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4261" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-utils_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/inject-utils_2.12/19.7.0/inject-utils_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="inject-utils_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16261" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-utils_2.12/srcs/inject-utils_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/inject-utils_2.12/19.7.0/inject-utils_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-modules_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233433" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4284" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-modules_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/inject-modules_2.12/19.7.0/inject-modules_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="inject-modules_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5921" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-modules_2.12/srcs/inject-modules_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/inject-modules_2.12/19.7.0/inject-modules_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-slf4j-jul-bridge_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204619" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3788" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-slf4j-jul-bridge_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-slf4j-jul-bridge_2.12/19.7.0/util-slf4j-jul-bridge_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-slf4j-jul-bridge_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1794" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-slf4j-jul-bridge_2.12/srcs/util-slf4j-jul-bridge_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-slf4j-jul-bridge_2.12/19.7.0/util-slf4j-jul-bridge_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.21" status="release" pubdate="20160404193912" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5260" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4872" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-core_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5430" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-core_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/inject-core_2.12/19.7.0/inject-core_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="inject-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9802" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-core_2.12/srcs/inject-core_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/inject-core_2.12/19.7.0/inject-core_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.codingwell" name="scala-guice_2.12">
+			<revision name="4.1.0" status="release" pubdate="20161124180045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/codingwell/scala-guice" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3395" time="0" location="/Users/zabdi/.ivy2/cache/net.codingwell/scala-guice_2.12/ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-guice_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18462" time="0" location="/Users/zabdi/.ivy2/cache/net.codingwell/scala-guice_2.12/srcs/scala-guice_2.12-4.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/codingwell/scala-guice_2.12/4.1.0/scala-guice_2.12-4.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="19.0" status="release" pubdate="20151209205835" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6356" time="0" location="/Users/zabdi/.ivy2/cache/com.google.guava/guava/ivy-19.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.0" rev-constraint-default="19.0" rev-constraint-dynamic="19.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1319216" time="0" location="/Users/zabdi/.ivy2/cache/com.google.guava/guava/srcs/guava-19.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.nscala-time" name="nscala-time_2.12">
+			<revision name="2.14.0" status="release" pubdate="20161029005426" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/nscala-time/nscala-time" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2947" time="0" location="/Users/zabdi/.ivy2/cache/com.github.nscala-time/nscala-time_2.12/ivy-2.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.14.0" rev-constraint-default="2.14.0" rev-constraint-dynamic="2.14.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="nscala-time_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40046" time="0" location="/Users/zabdi/.ivy2/cache/com.github.nscala-time/nscala-time_2.12/srcs/nscala-time_2.12-2.14.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12/2.14.0/nscala-time_2.12-2.14.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20111027205117" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3246" time="0" location="/Users/zabdi/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/Users/zabdi/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
+			<revision name="4.0" status="release" pubdate="20150428213500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5099" time="0" location="/Users/zabdi/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice-assistedinject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33987" time="0" location="/Users/zabdi/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/srcs/guice-assistedinject-4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="inject-slf4j_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717233340" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="Apache 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4280" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-slf4j_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/inject-slf4j_2.12/19.7.0/inject-slf4j_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/scaladocs/"/>
+				<artifacts>
+					<artifact name="inject-slf4j_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4648" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/inject-slf4j_2.12/srcs/inject-slf4j_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/inject-slf4j_2.12/19.7.0/inject-slf4j_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cb372" name="scalacache-caffeine_2.12">
+			<revision name="0.28.0" status="release" pubdate="20190619222245" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cb372/scalacache" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3284" time="0" location="/Users/zabdi/.ivy2/cache/com.github.cb372/scalacache-caffeine_2.12/ivy-0.28.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/cb372/scalacache-caffeine_2.12/0.28.0/scalacache-caffeine_2.12-0.28.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.28.0" rev-constraint-default="0.28.0" rev-constraint-dynamic="0.28.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalacache-caffeine_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1479" time="0" location="/Users/zabdi/.ivy2/cache/com.github.cb372/scalacache-caffeine_2.12/srcs/scalacache-caffeine_2.12-0.28.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/cb372/scalacache-caffeine_2.12/0.28.0/scalacache-caffeine_2.12-0.28.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ben-manes.caffeine" name="caffeine">
+			<revision name="2.7.0" status="release" pubdate="20190224181209" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ben-manes/caffeine" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5599" time="0" location="/Users/zabdi/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.7.0/caffeine-2.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="caffeine" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="724190" time="0" location="/Users/zabdi/.ivy2/cache/com.github.ben-manes.caffeine/caffeine/srcs/caffeine-2.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.7.0/caffeine-2.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-netty4-http_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223816" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9922" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-netty4-http_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4-http_2.12/19.7.0/finagle-netty4-http_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-netty4-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24198" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-netty4-http_2.12/srcs/finagle-netty4-http_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4-http_2.12/19.7.0/finagle-netty4-http_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-base-http_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223757" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9387" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-base-http_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-base-http_2.12/19.7.0/finagle-base-http_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-base-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="79634" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-base-http_2.12/srcs/finagle-base-http_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-base-http_2.12/19.7.0/finagle-base-http_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-qual">
+			<revision name="2.6.0" status="release" pubdate="20190203211155" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://checkerframework.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/zabdi/.ivy2/cache/org.checkerframework/checker-qual/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.6.0/checker-qual-2.6.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="checker-qual" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="225816" time="0" location="/Users/zabdi/.ivy2/cache/org.checkerframework/checker-qual/srcs/checker-qual-2.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.6.0/checker-qual-2.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-tunable_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223640" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8300" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-tunable_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-tunable_2.12/19.7.0/finagle-tunable_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-tunable_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2173" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-tunable_2.12/srcs/finagle-tunable_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-tunable_2.12/19.7.0/finagle-tunable_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.1" status="release" pubdate="20151009060635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3268" time="0" location="/Users/zabdi/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16622" time="0" location="/Users/zabdi/.ivy2/cache/com.google.code.findbugs/jsr305/srcs/jsr305-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.2" status="release" pubdate="20120326161438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8256" time="0" location="/Users/zabdi/.ivy2/cache/commons-io/commons-io/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="242243" time="0" location="/Users/zabdi/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.2/commons-io-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.21" status="release" pubdate="20160404193836" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5275" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23213" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.3.3" status="release" pubdate="20190222215324" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4314" time="0" location="/Users/zabdi/.ivy2/cache/com.google.errorprone/error_prone_annotations/ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25798" time="0" location="/Users/zabdi/.ivy2/cache/com.google.errorprone/error_prone_annotations/srcs/error_prone_annotations-2.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cb372" name="scalacache-core_2.12">
+			<revision name="0.28.0" status="release" pubdate="20190619222255" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cb372/scalacache" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3218" time="0" location="/Users/zabdi/.ivy2/cache/com.github.cb372/scalacache-core_2.12/ivy-0.28.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/cb372/scalacache-core_2.12/0.28.0/scalacache-core_2.12-0.28.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.28.0" rev-constraint-default="0.28.0" rev-constraint-dynamic="0.28.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalacache-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22591" time="0" location="/Users/zabdi/.ivy2/cache/com.github.cb372/scalacache-core_2.12/srcs/scalacache-core_2.12-0.28.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/cb372/scalacache-core_2.12/0.28.0/scalacache-core_2.12-0.28.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.spullara.mustache.java" name="compiler">
+			<revision name="0.8.18" status="release" pubdate="20150824191855" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spullara/mustache.java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3604" time="0" location="/Users/zabdi/.ivy2/cache/com.github.spullara.mustache.java/compiler/ivy-0.8.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.8.18" rev-constraint-default="0.8.18" rev-constraint-dynamic="0.8.18" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56054" time="0" location="/Users/zabdi/.ivy2/cache/com.github.spullara.mustache.java/compiler/srcs/compiler-0.8.18-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.thrift" name="libthrift">
+			<revision name="0.10.0" status="release" pubdate="20170201160737" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://thrift.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3182" time="0" location="/Users/zabdi/.ivy2/cache/org.apache.thrift/libthrift/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="libthrift" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="175996" time="0" location="/Users/zabdi/.ivy2/cache/org.apache.thrift/libthrift/srcs/libthrift-0.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.4.1" status="release" pubdate="20150324154339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9802" time="0" location="/Users/zabdi/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="702879" time="0" location="/Users/zabdi/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.1" status="release" pubdate="20150314162955" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7617" time="0" location="/Users/zabdi/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="405124" time="0" location="/Users/zabdi/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http2">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417085142" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18047" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec-http2/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.35.Final/netty-codec-http2-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec-http2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="266307" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec-http2/srcs/netty-codec-http2-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.35.Final/netty-codec-http2-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-slf4j-api_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204312" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3571" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-slf4j-api_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-slf4j-api_2.12/19.7.0/util-slf4j-api_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-slf4j-api_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4638" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-slf4j-api_2.12/srcs/util-slf4j-api_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-slf4j-api_2.12/19.7.0/util-slf4j-api_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110116222147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6637" time="0" location="/Users/zabdi/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/Users/zabdi/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.12.1" status="release" pubdate="20161205110943" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scalap/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.1/scalap-2.12.1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37215" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scalap/srcs/scalap-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.1/scalap-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.1" status="release" pubdate="20161205111035" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3089" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1787297" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101142105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2987" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.26" status="release" pubdate="20190218231602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5294" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.26" rev-constraint-default="1.7.26" rev-constraint-dynamic="1.7.26" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58090" time="0" location="/Users/zabdi/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.26-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.1" status="release" pubdate="20161205110619" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="572951" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.1" status="release" pubdate="20161205110923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="88">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="988614" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131221035739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10097" time="0" location="/Users/zabdi/.ivy2/cache/commons-codec/commons-codec/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278370" time="0" location="/Users/zabdi/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-netty4_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223749" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="12601" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-netty4_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4_2.12/19.7.0/finagle-netty4_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-netty4_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84731" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-netty4_2.12/srcs/finagle-netty4_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4_2.12/19.7.0/finagle-netty4_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-core_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223744" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18283" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-core_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/19.7.0/finagle-core_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="449427" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-core_2.12/srcs/finagle-core_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/19.7.0/finagle-core_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler-proxy">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417085834" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18077" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-handler-proxy/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.35.Final/netty-handler-proxy-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-handler-proxy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14789" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-handler-proxy/srcs/netty-handler-proxy-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.35.Final/netty-handler-proxy-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417085011" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17776" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec-http/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.35.Final/netty-codec-http-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="438944" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.35.Final/netty-codec-http-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-socks">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417085611" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17397" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec-socks/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.35.Final/netty-codec-socks-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec-socks" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="86400" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec-socks/srcs/netty-codec-socks-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.35.Final/netty-codec-socks-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-epoll">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417093057" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18895" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-transport-native-epoll/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.35.Final/netty-transport-native-epoll-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-transport-native-epoll" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71893" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-transport-native-epoll/srcs/netty-transport-native-epoll-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.35.Final/netty-transport-native-epoll-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-unix-common">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417112742" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18317" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-transport-native-unix-common/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.35.Final/netty-transport-native-unix-common-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-transport-native-unix-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32286" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-transport-native-unix-common/srcs/netty-transport-native-unix-common-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.35.Final/netty-transport-native-unix-common-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417084836" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18578" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-handler/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.35.Final/netty-handler-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="286433" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.35.Final/netty-handler-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417083959" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18681" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.35.Final/netty-codec-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="259745" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.35.Final/netty-codec-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417083831" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17365" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-transport/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.35.Final/netty-transport-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="316568" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.35.Final/netty-transport-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417083622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17068" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.35.Final/netty-resolver-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24917" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-resolver/srcs/netty-resolver-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.35.Final/netty-resolver-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417083547" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17062" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.35.Final/netty-buffer-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="175120" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.35.Final/netty-buffer-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417083247" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19586" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-common/ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.35.Final/netty-common-4.1.35.Final.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="328114" time="0" location="/Users/zabdi/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.1.35.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.35.Final/netty-common-4.1.35.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705191228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11623" time="0" location="/Users/zabdi/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="/Users/zabdi/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.11" status="release" pubdate="20190117160715" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<license name="BSD-2-Clause" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="4077" time="0" location="/Users/zabdi/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.11" rev-constraint-default="2.1.11" rev-constraint-dynamic="2.1.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="118782" time="0" location="/Users/zabdi/.ivy2/cache/org.hdrhistogram/HdrHistogram/srcs/HdrHistogram-2.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-tunable_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204803" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4083" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-tunable_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/19.7.0/util-tunable_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-tunable_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9869" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-tunable_2.12/srcs/util-tunable_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/19.7.0/util-tunable_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-security_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717205116" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3483" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-security_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-security_2.12/19.7.0/util-security_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-security_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10451" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-security_2.12/srcs/util-security_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-security_2.12/19.7.0/util-security_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-jvm_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717205051" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3732" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-jvm_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/19.7.0/util-jvm_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-jvm_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20657" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-jvm_2.12/srcs/util-jvm_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/19.7.0/util-jvm_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-hashing_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204332" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3435" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-hashing_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/19.7.0/util-hashing_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-hashing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6004" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-hashing_2.12/srcs/util-hashing_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/19.7.0/util-hashing_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-codec_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204514" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3326" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-codec_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/19.7.0/util-codec_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-codec_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1518" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-codec_2.12/srcs/util-codec_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/19.7.0/util-codec_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-cache_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3631" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-cache_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/19.7.0/util-cache_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-cache_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7563" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-cache_2.12/srcs/util-cache_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/19.7.0/util-cache_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-init_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223618" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4850" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-init_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/19.7.0/finagle-init_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-init_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1059" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-init_2.12/srcs/finagle-init_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/19.7.0/finagle-init_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-toggle_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717223634" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9313" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-toggle_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/19.7.0/finagle-toggle_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-toggle_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19428" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/finagle-toggle_2.12/srcs/finagle-toggle_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/19.7.0/finagle-toggle_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12">
+			<revision name="2.9.8" status="release" pubdate="20181216215309" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4076" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.8/jackson-module-scala_2.12-2.9.8.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50698" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.12/srcs/jackson-module-scala_2.12-2.9.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.8/jackson-module-scala_2.12-2.9.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-joda">
+			<revision name="2.9.8" status="release" pubdate="20181215232208" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJoda" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="23469" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-joda/ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.8/jackson-datatype-joda-2.9.8.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-datatype-joda" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42909" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-joda/srcs/jackson-datatype-joda-2.9.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.8/jackson-datatype-joda-2.9.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.9.8" status="release" pubdate="20181215220651" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="29858" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.8/jackson-module-paranamer-2.9.8.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7275" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/srcs/jackson-module-paranamer-2.9.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.8/jackson-module-paranamer-2.9.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826122928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4254" time="0" location="/Users/zabdi/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="/Users/zabdi/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014003500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/Users/zabdi/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/Users/zabdi/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.9.8" status="release" pubdate="20181215211249" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7874" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="68199" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.9.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.9.8" status="release" pubdate="20181215215940" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="23625" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="996534" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.9.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.9.8" status="release" pubdate="20181215211934" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="22913" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336570" time="0" location="/Users/zabdi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-logging_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204742" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3622" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-logging_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/19.7.0/util-logging_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33312" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-logging_2.12/srcs/util-logging_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/19.7.0/util-logging_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-stats_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204717" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3902" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-stats_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/19.7.0/util-stats_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-stats_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19739" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-stats_2.12/srcs/util-stats_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/19.7.0/util-stats_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-lint_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204504" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3323" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-lint_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/19.7.0/util-lint_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-lint_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3129" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-lint_2.12/srcs/util-lint_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/19.7.0/util-lint_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-app_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204836" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3469" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-app_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-app_2.12/19.7.0/util-app_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-app_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25217" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-app_2.12/srcs/util-app_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-app_2.12/19.7.0/util-app_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-registry_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204648" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3335" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-registry_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/19.7.0/util-registry_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-registry_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4399" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-registry_2.12/srcs/util-registry_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/19.7.0/util-registry_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204542" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3903" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-core_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-core_2.12/19.7.0/util-core_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="208163" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-core_2.12/srcs/util-core_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-core_2.12/19.7.0/util-core_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161029001045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42274" time="0" location="/Users/zabdi/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-function_2.12">
+			<revision name="19.7.0" status="release" pubdate="20190717204441" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3190" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-function_2.12/ivy-19.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-function_2.12/19.7.0/util-function_2.12-19.7.0.pom"/>
+				<caller organisation="default" name="vrbo-listings-api$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="19.7.0" rev-constraint-default="19.7.0" rev-constraint-dynamic="19.7.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-function_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2387" time="0" location="/Users/zabdi/.ivy2/cache/com.twitter/util-function_2.12/srcs/util-function_2.12-19.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-function_2.12/19.7.0/util-function_2.12-19.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

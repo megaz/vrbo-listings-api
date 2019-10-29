@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/zabdi/dev/GitHub/vrbo-listings-api/src/main/scala/com/vrbo/listings/exception/ConflictExceptionMapper.scala:8:2: trait Singleton is abstract; cannot be instantiated[0m
+[0m[[0m[31merror[0m] [0m[0m@Singleton[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
