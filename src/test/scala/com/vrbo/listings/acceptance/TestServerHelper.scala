@@ -7,10 +7,12 @@ import com.vrbo.listings.domain.{Address, Contact, Listing, Location}
 import io.circe.{Encoder, Json}
 import org.scalatest.{GivenWhenThen, Matchers}
 
-abstract class TestServerHelper extends FeatureTest  with Matchers with GivenWhenThen {
+abstract class TestServerHelper extends FeatureTest with Matchers with GivenWhenThen {
 
   protected def createOnly(): EmbeddedHttpServer = {
-    new EmbeddedHttpServer(new ListingsApiServer)
+    new EmbeddedHttpServer(new ListingsApiServer,
+      disableTestLogging = true
+    )
   }
 
   implicit val encodeListing: Encoder[Listing] = (l: Listing) =>
