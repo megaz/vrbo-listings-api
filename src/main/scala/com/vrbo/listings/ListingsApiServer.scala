@@ -8,7 +8,7 @@ import com.twitter.finatra.http.routing.HttpRouter
 import com.vrbo.listings.controller.ListingsController
 import com.vrbo.listings.modules.{CustomExceptionMapperModule, CustomJacksonModule}
 
-object ListingsApiServer$ extends ListingsApiServer
+object ListingsApi extends ListingsApiServer
 
 class ListingsApiServer extends HttpServer {
 

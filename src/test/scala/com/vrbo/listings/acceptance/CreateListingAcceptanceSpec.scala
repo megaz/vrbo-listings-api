@@ -2,17 +2,15 @@ package com.vrbo.listings.acceptance
 
 import com.twitter.finagle.http.Status._
 import com.twitter.finatra.http.EmbeddedHttpServer
-import com.twitter.inject.server.FeatureTestMixin
 import com.vrbo.listings.domain.{Address, Contact, Listing, Location}
 import io.circe.syntax._
 
-class CreateListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureTestMixin {
+class CreateListingAcceptanceSpec extends TestServerHelper {
 
-  override val server: EmbeddedHttpServer = BaseMyServiceFeatureTest.createOnly
+  override val server:  EmbeddedHttpServer = createOnly
 
-  describe("Creating Listing") {
 
-    it("listing is successfully created") {
+    test("listing is successfully created") {
 
       Given("A listing that is valid")
       val listing = Listing(None, Contact("15126841100", "+1 512-684-1100"),
@@ -28,7 +26,7 @@ class CreateListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureT
       response.status.shouldBe(Created)
     }
 
-    it("listing with a duplicate address is not created") {
+  test("listing with a duplicate address is not created") {
 
       Given("A listing that is valid")
       val listing = Listing(None, Contact("15126841100", "+1 512-684-1100"),
@@ -50,6 +48,4 @@ class CreateListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureT
         """{"type":"duplicate_address","message":"Cannot create duplicate listing on address that already exists"}""")
     }
 
-
-  }
 }

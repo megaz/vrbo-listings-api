@@ -7,6 +7,7 @@ val twitterVersion = "19.1.0"
 
 libraryDependencies += "com.twitter" %% "finagle-http" % twitterVersion
 libraryDependencies += "com.twitter" %% "finatra-http" % twitterVersion
+libraryDependencies += "com.twitter" %% "finatra-jackson" % twitterVersion
 libraryDependencies += "com.github.cb372" %% "scalacache-caffeine" % "0.28.0"
 libraryDependencies += "com.github.cb372" %% "scalacache-core" % "0.28.0"
 

@@ -1,21 +1,17 @@
 package com.vrbo.listings.acceptance
 
-import com.twitter.finagle.http.Status.{NoContent, NotFound}
+import com.twitter.finagle.http.Status.NotFound
 import com.twitter.finatra.http.EmbeddedHttpServer
-import com.twitter.inject.server.FeatureTestMixin
 
-class GetListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureTestMixin {
+class GetListingAcceptanceSpec extends  TestServerHelper {
 
-  override val server: EmbeddedHttpServer = BaseMyServiceFeatureTest.createOnly
+  override val server:  EmbeddedHttpServer = createOnly
 
-  describe("Get Listing") {
-
-    it("listing that doesn't exist returns 404") {
+    test("listing that doesn't exist returns 404") {
 
       server.httpGet(
         path = "/listings/12345",
         andExpect = NotFound)
-    }
 
   }
 

@@ -1,16 +1,17 @@
 package com.vrbo.listings.acceptance
 
 import com.twitter.finatra.http.EmbeddedHttpServer
+import com.twitter.inject.server.FeatureTest
 import com.vrbo.listings.ListingsApiServer
 import com.vrbo.listings.domain.{Address, Contact, Listing, Location}
 import io.circe.{Encoder, Json}
-import org.scalatest.{FunSpec, GivenWhenThen, Matchers}
+import org.scalatest.{GivenWhenThen, Matchers}
 
-object BaseMyServiceFeatureTest {
-  def createOnly: EmbeddedHttpServer = new EmbeddedHttpServer(new ListingsApiServer)
-}
+abstract class TestServerHelper extends FeatureTest  with Matchers with GivenWhenThen {
 
-class BaseMyServiceFeatureTest extends FunSpec with Matchers with GivenWhenThen {
+  protected def createOnly(): EmbeddedHttpServer = {
+    new EmbeddedHttpServer(new ListingsApiServer)
+  }
 
   implicit val encodeListing: Encoder[Listing] = (l: Listing) =>
     Json.obj(("listing", Json.obj(
@@ -39,5 +40,6 @@ class BaseMyServiceFeatureTest extends FunSpec with Matchers with GivenWhenThen 
     ("lat", Json.fromDoubleOrString(l.lat)),
     ("lng", Json.fromDoubleOrString(l.lng))
   )
+
 
 }

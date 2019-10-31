@@ -1,3 +1,5 @@
 package com.vrbo.listings.domain
 
-case class Contact(phone: String, formattedPhone: String)
+import com.twitter.finatra.validation.Size
+
+case class Contact(@Size(min = 5, max = 12) phone: String, @Size(min = 5, max = 12)formattedPhone: String)

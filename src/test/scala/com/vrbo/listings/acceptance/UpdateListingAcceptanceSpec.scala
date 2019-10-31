@@ -2,19 +2,16 @@ package com.vrbo.listings.acceptance
 
 import com.twitter.finagle.http.Status.NoContent
 import com.twitter.finatra.http.EmbeddedHttpServer
-import com.twitter.inject.server.FeatureTestMixin
 import com.vrbo.listings.domain.{Address, Contact, Listing, Location}
 import io.circe.Json
 import io.circe.parser.parse
 import io.circe.syntax._
 
-class UpdateListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureTestMixin {
+class UpdateListingAcceptanceSpec extends TestServerHelper {
 
-  override val server: EmbeddedHttpServer = BaseMyServiceFeatureTest.createOnly
+  override val server:  EmbeddedHttpServer = createOnly
 
-  describe("Update Listing") {
-
-    it("listing that exists is successfully updated") {
+    test("listing that exists is successfully updated") {
 
       Given("A listing that is valid")
       val listing = Listing(None, Contact("15126841100", "+1 512-684-1100"),
@@ -41,6 +38,5 @@ class UpdateListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureT
       updateResp.status.shouldBe(NoContent)
     }
 
-  }
 
 }

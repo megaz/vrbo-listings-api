@@ -2,15 +2,14 @@ package com.vrbo.listings.acceptance
 
 import com.twitter.finagle.http.Status.BadRequest
 import com.twitter.finatra.http.EmbeddedHttpServer
-import com.twitter.inject.server.FeatureTestMixin
 import com.vrbo.listings.domain.{Address, Contact, Listing, Location}
 import io.circe.syntax._
 
-class CreateListingValidationAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureTestMixin {
+class CreateListingValidationAcceptanceSpec extends TestServerHelper {
 
-  override val server: EmbeddedHttpServer = BaseMyServiceFeatureTest.createOnly
+  override val server:  EmbeddedHttpServer = createOnly
 
-  it("listing is not created due to invalid country code") {
+  test("listing is not created due to invalid country code") {
 
     Given("A listing that has invalid countryCode")
     val countryCode = "USAA"

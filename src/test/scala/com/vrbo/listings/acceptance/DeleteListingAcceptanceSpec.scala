@@ -2,19 +2,16 @@ package com.vrbo.listings.acceptance
 
 import com.twitter.finagle.http.Status._
 import com.twitter.finatra.http.EmbeddedHttpServer
-import com.twitter.inject.server.FeatureTestMixin
 import com.vrbo.listings.domain.{Address, Contact, Listing, Location}
 import io.circe.Json
 import io.circe.parser._
 import io.circe.syntax._
 
-class DeleteListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureTestMixin {
+class DeleteListingAcceptanceSpec extends TestServerHelper {
 
-  override val server: EmbeddedHttpServer = BaseMyServiceFeatureTest.createOnly
+  override val server:  EmbeddedHttpServer = createOnly
 
-  describe("Delete Listing") {
-
-    it("deletes a listing that was created") {
+    test("deletes a listing that was created") {
 
       Given("A listing that is valid")
       val listing = Listing(None, Contact("15126841100", "+1 512-684-1100"),
@@ -44,13 +41,12 @@ class DeleteListingAcceptanceSpec extends BaseMyServiceFeatureTest with FeatureT
 
     }
 
-    it("returns no content for deleting a listing that does not exist") {
+    test("returns no content for deleting a listing that does not exist") {
 
       val deleteResp = server.httpDelete(
         path = "/listings/someId")
 
       deleteResp.status.shouldBe(NoContent)
     }
-  }
 
 }
