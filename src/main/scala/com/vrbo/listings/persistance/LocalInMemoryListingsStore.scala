@@ -1,5 +1,6 @@
 package com.vrbo.listings.persistance
 
+import com.github.benmanes.caffeine.cache.Caffeine
 import com.twitter.util.Future
 import com.twitter.util.logging.Logging
 import com.vrbo.listings.domain.id.UUID
@@ -13,7 +14,9 @@ import scala.util.{Failure, Success}
 
 class LocalInMemoryListingsStore extends ListingsStore[Listing, UUID] with Logging {
 
-  implicit val listingsCache: Cache[Listing] = CaffeineCache[Listing]
+  val underlyingListingsCache = Caffeine.newBuilder().build[String, Entry[Listing]]
+  implicit val listingsCache: Cache[Listing] = CaffeineCache(underlyingListingsCache)
+
   implicit val addressToListingIdCache: Cache[String] = CaffeineCache[String]
 
   override def store(listing: Listing): Future[Listing] = {

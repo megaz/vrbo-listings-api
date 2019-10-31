@@ -11,7 +11,8 @@ abstract class TestServerHelper extends FeatureTest with Matchers with GivenWhen
 
   protected def createOnly(): EmbeddedHttpServer = {
     new EmbeddedHttpServer(new ListingsApiServer,
-      disableTestLogging = true
+      disableTestLogging = true,
+      flags = Map("log.level" -> "OFF")
     )
   }
 

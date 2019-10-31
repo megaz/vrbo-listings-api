@@ -2,7 +2,7 @@ package com.vrbo.listings.controller
 
 import com.twitter.finatra.http.Controller
 import com.vrbo.listings.domain.Listing
-import com.vrbo.listings.domain.id.{Id, UUID}
+import com.vrbo.listings.domain.id.UUID
 import com.vrbo.listings.http.request.ListingRequest.{ListingDeleteRequest, ListingGetRequest, ListingPostRequest, ListingPutRequest}
 import com.vrbo.listings.http.response.ListingNotFound
 import com.vrbo.listings.service.ListingsService
