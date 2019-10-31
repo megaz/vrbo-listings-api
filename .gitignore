@@ -1,0 +1,37 @@
+
+**/dev-only-vault.yml
+
+### ----- IDE-Specific Exclusions ------ ###
+.idea/
+*.iml
+
+### ---- Runtime/Compile Exclusions ---- ###
+bin/boot/
+dist/
+logs/
+out/
+src_managed/
+target/
+*.log
+
+### - Dependency Management Exclusions - ###
+.ivyjars/
+lib/
+lib_managed/
+
+### ----- Miscellaneous Exclusions ----- ###
+.DS_Store
+.swagger/swagger-codegen-cli-*.jar
+*~
+*#
+.#*
+*.pyc
+*.swp
+*.tmproj
+*.bak
+docker/db/data/
+!docker/db/data/.gitkeep
+
+### ------- CodeStyle Inclusion -------- ###
+!.idea/codeStyleSettings.xml
+

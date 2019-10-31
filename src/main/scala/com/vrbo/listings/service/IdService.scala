@@ -6,6 +6,6 @@ import com.twitter.util.Future
 @ImplementedBy(classOf[UUIDGenerationIdService])
 trait IdService[T] {
 
-  def getId: Future[T]
+  def generateId: Future[T]
 
 }

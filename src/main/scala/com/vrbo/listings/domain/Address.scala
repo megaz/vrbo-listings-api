@@ -1,3 +1,5 @@
 package com.vrbo.listings.domain
 
-case class Address(address: String, postalCode: String, countryCode: String, city: String, state: String, country: String)
+import com.twitter.finatra.validation.{CountryCode, Size}
+
+case class Address(@Size(min = 2, max = 150) address: String, postalCode: Option[String], @CountryCode countryCode: String, @Size(min = 2, max = 100) city: String, state: Option[String], @Size(min = 4, max = 74) country: String)

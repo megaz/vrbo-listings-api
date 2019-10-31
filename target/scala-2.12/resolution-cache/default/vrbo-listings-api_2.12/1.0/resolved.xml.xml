@@ -4,7 +4,7 @@
 		module="vrbo-listings-api_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20191029202546"
+		publication="20191030195309"
 	>
 		<description>
 		vrbo-listings-api
@@ -30,11 +30,35 @@
 		<artifact name="vrbo-listings-api_2.12" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="com.twitter" name="finagle-http_2.12" rev="19.7.0" conf="compile->default(compile)"/>
-		<dependency org="com.twitter" name="finatra-http_2.12" rev="19.7.0" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.twitter" name="finagle-http_2.12" rev="19.1.0" conf="compile->default(compile)"/>
+		<dependency org="com.twitter" name="finatra-http_2.12" rev="19.1.0" conf="compile->default(compile);test->default(compile)">
+			<artifact name="finatra-http_2.12" type="jar" ext="jar" conf="compile"/>
+			<artifact name="finatra-http_2.12" type="jar" ext="jar" conf="test" e:classifier="tests"/>
+		</dependency>
 		<dependency org="com.github.cb372" name="scalacache-caffeine_2.12" rev="0.28.0" conf="compile->default(compile)"/>
 		<dependency org="com.github.cb372" name="scalacache-core_2.12" rev="0.28.0" conf="compile->default(compile)"/>
+		<dependency org="com.twitter" name="inject-server_2.12" rev="19.1.0" conf="test->default(compile)">
+			<artifact name="inject-server_2.12" type="jar" ext="jar" conf="test"/>
+			<artifact name="inject-server_2.12" type="jar" ext="jar" conf="test" e:classifier="tests"/>
+		</dependency>
+		<dependency org="com.twitter" name="inject-app_2.12" rev="19.1.0" conf="test->default(compile)">
+			<artifact name="inject-app_2.12" type="jar" ext="jar" conf="test"/>
+			<artifact name="inject-app_2.12" type="jar" ext="jar" conf="test" e:classifier="tests"/>
+		</dependency>
+		<dependency org="com.twitter" name="inject-core_2.12" rev="19.1.0" conf="test->default(compile)">
+			<artifact name="inject-core_2.12" type="jar" ext="jar" conf="test"/>
+			<artifact name="inject-core_2.12" type="jar" ext="jar" conf="test" e:classifier="tests"/>
+		</dependency>
+		<dependency org="com.twitter" name="inject-modules_2.12" rev="19.1.0" conf="test->default(compile)">
+			<artifact name="inject-modules_2.12" type="jar" ext="jar" conf="test"/>
+			<artifact name="inject-modules_2.12" type="jar" ext="jar" conf="test" e:classifier="tests"/>
+		</dependency>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.8" conf="test->default(compile)"/>
+		<dependency org="io.circe" name="circe-parser_2.12" rev="0.12.3" conf="test->default(compile)"/>
+		<dependency org="com.twitter" name="finatra-jackson_2.12" rev="19.1.0" conf="test->default(compile)">
+			<artifact name="finatra-jackson_2.12" type="jar" ext="jar" conf="*" e:classifier="tests"/>
+		</dependency>
 	</dependencies>
 </ivy-module>

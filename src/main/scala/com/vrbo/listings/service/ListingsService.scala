@@ -2,14 +2,13 @@ package com.vrbo.listings.service
 
 import com.google.inject.ImplementedBy
 import com.twitter.util.Future
-import com.vrbo.listings.domain.http.ListingPostRequest
 
 @ImplementedBy(classOf[VrboListingsService])
-trait ListingsService[T] {
+trait ListingsService[T, ID] {
 
-  def get(id: String): Future[Option[T]]
-  def save(listing : ListingPostRequest): Future[T]
-  def update(t : T): Future[Option[T]]
-  def delete(id: String): Unit
+  def get(id: ID): Future[Option[T]]
+  def save(a: T): Future[T]
+  def update(id: ID, t: T): Future[Boolean]
+  def delete(id: ID): Future[Boolean]
 
 }

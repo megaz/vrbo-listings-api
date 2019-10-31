@@ -1,39 +1,31 @@
 package com.vrbo.listings.controller
 
 import com.twitter.finatra.http.Controller
-import com.twitter.util.Future
-import com.vrbo.listings.ListingResponse
 import com.vrbo.listings.domain.Listing
-import com.vrbo.listings.domain.http.{ListingGetRequest, ListingPostRequest}
+import com.vrbo.listings.domain.id.{Id, UUID}
+import com.vrbo.listings.http.request.ListingRequest.{ListingDeleteRequest, ListingGetRequest, ListingPostRequest, ListingPutRequest}
+import com.vrbo.listings.http.response.ListingNotFound
 import com.vrbo.listings.service.ListingsService
 import javax.inject.Inject
 
-class ListingsController @Inject()(listingsService: ListingsService[Listing]) extends Controller {
+class ListingsController @Inject()(listingsService: ListingsService[Listing, UUID]) extends Controller {
 
   get("/listings/:id") { listingsGetRequest: ListingGetRequest =>
-    listingsService.get(listingsGetRequest.id)
+    listingsService.get(UUID(listingsGetRequest.id)) map {
+      case Some(value) => response.ok(value)
+      case None => response.notFound(ListingNotFound.get)
+    }
   }
 
   post("/listings") { listingPostRequest: ListingPostRequest =>
-
-    //    listingsService.save(listingPostRequest).onFailure {
-
-    val futureListingResponse: Future[ListingResponse] = for {
-      listing <- listingsService.save(listingPostRequest)
-      listingResponse = ListingResponse.fromDomain(listing)
-    } yield listingResponse
-
-    futureListingResponse
-      .onSuccess(lr => response.ok(lr))
-      .onFailure(e => response.conflict(e.getMessage))
-
+    listingsService.save(listingPostRequest.toDomain).map(listing => response.created(listing))
   }
 
-  //  delete("/listings/:id") { listingsRequest: ListingsRequest =>
-  //    "hello"
-  //  }
-  //
-  //  put("/listings/:id") { listingsRequest: ListingsRequest =>
-  //    "hello"
-  //  }
+  delete("/listings/:id") { listingDeleteRequest: ListingDeleteRequest =>
+    listingsService.delete(UUID(listingDeleteRequest.id)) map (_ => response.noContent)
+  }
+
+  put("/listings/:id") { listingPutRequest: ListingPutRequest =>
+    listingsService.update(UUID(listingPutRequest.id), listingPutRequest.toDomain).map(_ => response.noContent)
+  }
 }

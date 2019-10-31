@@ -1,15 +1,13 @@
 package com.vrbo.listings.service
 
-import java.util.UUID
-
 import com.twitter.util.Future
+import com.vrbo.listings.domain.id.UUID
 import javax.inject.Singleton
 
 @Singleton
-class UUIDGenerationIdService extends IdService[String] {
+class UUIDGenerationIdService extends IdService[UUID] {
 
-  def getId: Future[String] = {
-    Future.value(UUID.randomUUID.toString)
+  def generateId: Future[UUID] = {
+    Future.value(UUID(java.util.UUID.randomUUID.toString))
   }
-
 }

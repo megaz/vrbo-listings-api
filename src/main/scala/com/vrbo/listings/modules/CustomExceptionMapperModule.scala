@@ -1,6 +1,5 @@
 package com.vrbo.listings.modules
 
-
 import javax.inject.Singleton
 import com.twitter.finatra.http.exceptions.ExceptionManager
 import com.twitter.inject.{Injector, TwitterModule}
