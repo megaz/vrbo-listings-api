@@ -7,6 +7,7 @@ described below.
 Your task is to build a JSON-based RESTful API for a Vacation Rentals properties.
 This is an example of what we expect the JSON vacation rental property document to look
 like:
+
 ```
 {
   "listing": {
@@ -51,3 +52,30 @@ Considerations
 Pay particular attention to concurrency issues. Even though the task itself could be achieved
 without, imagine you are building for maximum reuse, extensibility, scalability and performance.
 Good maintainability and code cleanliness will also gain you extra points.
+
+## Getting Started
+
+Below are instructions on how to run the Listings API
+
+#### Running the API via Docker
+
+        sbt docker:publishLocal
+        docker run -p 8000:8000 vrbo-listings-api:1.0
+        
+#### Running the API locally via SBT
+
+       ./sbt run
+       
+##  Decisions
+
+  -  The Listings REST API is built on top of Finatra (Finagle) to benefit from the non blocking and async features.
+  -  **PUT** and **DELETE** responses are idempotent - https://tools.ietf.org/html/rfc7231#section-4.2.2.
+  -  Implementing extra functionality such as return listings by city that simulates a real life use case.
+  -  Service and Store traits defined as returning Futures.  Since fetching from a local in memory cache is very little CPU, 
+     returned a `Future.value`. For reference: (http://enear.github.io/2019/01/17/future-workloads/)
+  -  Implemented some API validation, due to time limitations I was unable to finish this.
+  -  Validation includes creating a listing when there is a listing that contains an already existing address.   
+
+##  API Documentation
+
+For API Documentation, please see [API_DOCUMENTATION.md](API_DOCUMENTATION.md)

@@ -28,7 +28,8 @@ class UpdateListingAcceptanceSpec extends TestServerHelper {
         postBody = listing.asJson.spaces2)
 
       val json: Json = parse(postRes.contentString).getOrElse(Json.Null)
-      val id = json.asObject.get.toMap("id").toString.replace("\"", "")
+      val id = json.asObject.get.toMap("listing")
+        .asObject.get.toMap("id").toString.replace("\"", "")
 
       And("A requests is sent to update the listing")
       val updateResp = server.httpPut(

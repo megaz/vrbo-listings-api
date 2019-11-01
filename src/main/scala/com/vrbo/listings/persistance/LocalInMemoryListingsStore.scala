@@ -1,29 +1,44 @@
 package com.vrbo.listings.persistance
 
+import com.github.benmanes.caffeine.cache
 import com.github.benmanes.caffeine.cache.Caffeine
 import com.twitter.util.Future
 import com.twitter.util.logging.Logging
 import com.vrbo.listings.domain.id.UUID
 import com.vrbo.listings.domain.{Address, Listing}
+import com.vrbo.listings.persistance.query.QueryBy
 import com.vrbo.listings.util.Pattern
 import scalacache._
 import scalacache.caffeine.CaffeineCache
 import scalacache.modes.try_._
 
+import scala.collection.JavaConverters._
 import scala.util.{Failure, Success}
 
 class LocalInMemoryListingsStore extends ListingsStore[Listing, UUID] with Logging {
 
-  val underlyingListingsCache = Caffeine.newBuilder().build[String, Entry[Listing]]
-  implicit val listingsCache: Cache[Listing] = CaffeineCache(underlyingListingsCache)
+  private val underlyingListingsCache: cache.Cache[String, Entry[Listing]] = Caffeine.newBuilder().build[String, Entry[Listing]]
+  private val underlyingAddressCache: cache.Cache[String, Entry[String]] = Caffeine.newBuilder().build[String, Entry[String]]
+  private val underlyingCityCache: cache.Cache[String, Entry[List[String]]] = Caffeine.newBuilder().build[String, Entry[List[String]]]
 
-  implicit val addressToListingIdCache: Cache[String] = CaffeineCache[String]
+  implicit val listingsCache: Cache[Listing] = CaffeineCache(underlyingListingsCache)
+  implicit val addressToListingIdCache: Cache[String] = CaffeineCache(underlyingAddressCache)
+  implicit val cityToListingIdCache: Cache[List[String]] = CaffeineCache(underlyingCityCache)
 
   override def store(listing: Listing): Future[Listing] = {
     listingsCache.put(listing.id.get)(listing, ttl = None) match {
       case Success(_) =>
-        addressToListingIdCache.put(formatAddressStr(listing.address))(listing.id.get, ttl = None)
-      case Failure(e) => throw new RuntimeException("Could not store listing.")
+        addressToListingIdCache.put(removeWhiteSpace(listing.address.address))(listing.id.get, ttl = None)
+        val cityKey = removeWhiteSpace(listing.address.city)
+
+        val entry: Option[Entry[List[String]]] = Option(underlyingCityCache.getIfPresent(listing.address.city))
+
+        entry match {
+          case Some(_) => val listingIds = entry.get.value ::: List(listing.id.get)
+            cityToListingIdCache.put(cityKey)(listingIds, ttl = None)
+          case None => cityToListingIdCache.put(cityKey)(List(listing.id.get), ttl = None)
+        }
+      case Failure(_) => throw new RuntimeException("Could not store listing.")
     }
     Future.value(listing)
   }
@@ -58,7 +73,7 @@ class LocalInMemoryListingsStore extends ListingsStore[Listing, UUID] with Loggi
   }
 
   override def get(addr: Address): Future[Option[Listing]] = {
-    addressToListingIdCache.get(formatAddressStr(addr)) match {
+    addressToListingIdCache.get(removeWhiteSpace(addr.address)) match {
       case Success(listingId) =>
         listingId match {
           case Some(listing) => get(UUID(listing))
@@ -70,6 +85,22 @@ class LocalInMemoryListingsStore extends ListingsStore[Listing, UUID] with Loggi
     }
   }
 
-  private def formatAddressStr(add: Address): String = Pattern.removeWhitespace(add.address)
+  private def removeWhiteSpace(input: String): String = Pattern.removeWhitespace(input)
 
+  override def getListingsBy(input: Option[String], queryBy: QueryBy): Future[Set[Listing]] = {
+    queryBy match {
+      case QueryBy.ALL =>
+        Future.value(underlyingListingsCache.asMap().values().asScala.toSet.map { item: Entry[Listing] => item.value })
+      case QueryBy.CITY =>
+        val cacheEntry = Option(underlyingCityCache.asMap().get(input.get))
+        cacheEntry match {
+          case Some(_) => Future.value(underlyingListingsCache
+            .getAllPresent(underlyingCityCache.asMap().get(input.get).value.asJava).values()
+            .asScala.toSet.map { item: Entry[Listing] => item.value })
+          case None => Future.value(Set())
+        }
+    }
+  }
+
+  override def size: Future[Long] = Future.value(underlyingListingsCache.estimatedSize())
 }
